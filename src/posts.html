@@ -1,59 +1,23 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-	<title>Posts</title>
-	<link rel="stylesheet" href="assets/css/stylePosts.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Crear Publicaciones </title>
 </head>
 <body>
-<header>
-	<section class="menu">
-    	
-      <img class="logo" id="logo" src="assets/img/logoLab.png">
-          <img class="avatar" id="avatar" src="assets/img/usuario.png">
-        </header>
-    </section class="muro1">
-	<div class="public">
-	<p>Crear Publicación</p>
-	</div>
-	<div class="photos">
-	<p>Fotos</p>
-	</div>
-
-<textarea id="post"></textarea>
-	<section class="muro2">
-		<p>Ingresa tu Comentario</p>
-	<button class="private">Privacidad</button>
-	<button class="public2">Publicar</button>
-	</section>
-
+	<textarea name="Publicar " id="" cols="40" rows="10"></textarea>
+	<br>
 	<section class="buttons">
-		<button class="bLike">Me gusta</button>
-		<button class="bComment">Comentar</button>
-		<button class="bEdit">Editar</button>
-		<button class="bRemove">Eliminar</button>
+			<button class="bLike">Me gusta</button>
+			<button class="bComment">Comentar</button>
+			<button class="bEdit">Editar</button>
+			<button class="bRemove">Eliminar</button>
 	</section>
-
-	<section class="comment">
-		<label>Ingresa un comentario</label>
-	</section>
-	
-
-<footer class="footer">
-	<section class= "logoCopy">
-	<img class= "logo" id="logo" src="assets/img/1logo_coloresLab.png">
-	 <p class="copyRight">
-	copyright- AlPaCyAd 2019</p>
-	</section>
-	<strong>
-	<section class="contactUs">
-	<p>Contáctanos:</p> 
-	<table>Correo Electrónico</table>
-	<input type="text" name="emailComents" id="emailComents">
-	<table>Comentarios</table>
-	<input type="text" name="coments" id="coments">
-	<button class="buttonSend" id="Send">Enviar</button>
-	</strong>
-	</section>
-</footer>
+	<input type="radio" name="Public" value="Public"> Público<br>
+	<input type="radio" name="Private" value="Private"> Privado<br>
+	<input type="submit" value="Publicar"> </input>
+	<input type="submit" value="Volver a Perfil"> </input>
 </body>
 </html>
