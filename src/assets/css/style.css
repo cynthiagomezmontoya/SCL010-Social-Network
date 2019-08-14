@@ -290,7 +290,7 @@ font-size: 25px;
 
 /* RESPONSIVE -------------------------*/
 
-@media (max-width: 650px) {
+@media screen and (max-width: 650px) {
     .nav-links {
         background: #fffefe;
         width: 100%;
@@ -326,7 +326,7 @@ font-size: 25px;
 
 }
 
-@media (max-width: 475px) {
+@media screen and  (max-width: 475px) {
 
     .nav-links {
         background: #fffefe;
