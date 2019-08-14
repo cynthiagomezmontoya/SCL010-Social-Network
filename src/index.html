@@ -21,46 +21,59 @@
     </script>
   </head>
   <body class="color">
-    
-    <header>
-      <section class="menu">
-        
-        <img class="logo" id="logo" src="assets/img/logoLab.png">
-        <img class="avatar" id="avatar" src="assets/img/usuario.png">
-        
-      </section>
-    </header>
-    <div class="title">
-      <div><h1>Bienvenido a Laboratorians</h1></div>
-      <div><h2>Tu Red Social</h2></div>
-    </div>
-    <section class="content">
-      <strong> <p> Un lugar para compartir información del mundo de la Tecnología, disfrutar y conocer mas mujeres de la Comunidad </p> </strong>
-    </section>
+  <!--Start Header -->
+  <header>
+    <nav>
+      <div class="logo">
+      <a href="index.html"><img  src="assets/img/Captura3.JPG" alt="logoComunidad laboratoria"></a>
+      </div>
+      <div class="nav-links">
+       <a href="index.html" class="current">Inicio</a>
+       <a href="https:www.laboratoria.la" target="_blank">Laboratoria</a>
+       <a href="#">Contacto</a>
+      </div>
+     </nav>
+  </header>
+  <!--End Header-->
+  <!--Start Main-->
+   <main>
+      <section>
+      <div class="main-title">
+          <div class="intro">
+          <strong><h1>Bienvenida a Comunidad Laboratorians!!! </h1></strong>
+          </div>
+      </div>
+   </main>
+   <section class="content">
+    <strong> <p>Tu Red Social, para compartir informacion , vivencias , Tip  y todo lo que quieras con mujeres de Laboratoria.</p> </strong>      <img class="avatar" id="avatar" src="assets/img/usuario.png">
+   </section>
     <div class="buttonPpal" id="container">
-      <button><a href="#/login">Iniciar Sesion</a></button>
-      <button><a href="#/register">Crear Cuenta</a></button>
+      <a href="#/login"class= "buttons"> Iniciar Sesion</a>
+    </div>
+       <br>
+      <div class="buttonPpal" id="container">
+      <a href="#/register" class= "buttons"> Crear Cuenta </a>
+    </div>
+<!--Start HTML DINAMICO-->    
+    </div>
       <div id="dinamic" class="dinamic"></div>
     </div>
+<!--End HTML DINAMICO-->    
     <script  type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <footer class="footer">
-      <section class= "logoCopy">
-        <img class= "logo" id="logo" src="assets/img/1logo_coloresLab.png">
-        <p class="copyRight">
-        copyright- AlPaCyAd 2019</p>
-      </section>
-      <strong>
-      <section class="contactUs">
-        <p>Contáctanos:</p>
-      <table>Correo Electrónico</table>
-      <input type="text" name="emailComents" id="emailComents">
-    <table>Comentarios</table>
-    <input type="text" name="coments" id="coments">
-    <button class="button1" id="Send">Enviar</button>
-    </strong>
-  </section>
+<!--Start Footer-->
+     <footer class="footer">
+        <div class="footer-info">
+          <img class="logo" id="logo" src="assets/img/Laboratoria.JPG" alt="logo Laboratoria Negro"> 
+          <p>&copy; Copyright Comunidad Laboratorian ! 2019 | Design and Development by AlPaCyAd</p>
+        </div>
+    <div class="subscribe">
+      <p>Subscribe to our news</p>
+      <input type="email" placeholder="Enter your email">
+      <button id="subscribe-btn">Subscribe</button>
+    </div> 
 </footer>
+<!--End Footer-->
 <script type="module" src="./app.js"></script>
 </body>
 </html>

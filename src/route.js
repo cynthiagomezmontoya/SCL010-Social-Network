@@ -33,7 +33,7 @@ const showTemplate = h => {
 
   switch (router) {
     case "login":
-      containerDinamic.appendChild(templateLogin()); //se le adjuntan hijos al container dinámico
+      containerDinamic.appendChild(templateLogin());
       break;
     case "register":
       containerDinamic.appendChild(templateRegister());
