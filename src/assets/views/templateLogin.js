@@ -9,27 +9,27 @@ export const templateLogin = () => {
 	const containerLogin = document.createElement("div");
 	containerLogin.className = "containerLogin";
 	const contentLogin = `
-
-		<section class="login">
-			<p>Por Favor Conéctate:</p>
-			<table>Correo Electrónico</table>
-			<input type="email" name="" id="emailSesion">
-			<table>Contraseña</table>
-			<input type="password" name="" id="passwordSesion">
-			
-
-		  <button class="button2" id="btnInicioEmail">Iniciar Sesión</button>
-
+	
+		<div class="formulario">
+		div class="contenedor-form">
+		<h2>Iniciar Sesión</h2
+		<a href="index.html"><img  src="assets/img/Captura3.JPG" alt="logoComunidad laboratoria"></a>
+        <form action="#">
+     	<input type="email" id="emailSesion" placeholder="Correo electronico" required>
+            <input type="password"  id="passwordSesion" placeholder="Contraseña" required>
+		<div class="btn-submit">
+			<button class="button2" id="btnInicioEmail">Iniciar Sesión</button>
 			<br> <br>
-
-			<button class="button2" id="authGoogle">Iniciar con Google</button>
-
-			
-		</section>
-
-
-
+		</div>
+		<div class="google-btn">	
+		  <button class="button2" id="authGoogle">Iniciar con Google</button>
+		  </div>
+		  <div class="reset-password">
+		  <a href="#">¿Olvide mi Contraseña?</a>
+	  </div>
+		</form>
 	`;
+
 	containerLogin.innerHTML = contentLogin;
 
 	const buttonEmailLogin = containerLogin.querySelector("#btnInicioEmail");
