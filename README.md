@@ -1,5 +1,9 @@
 # Comunidad Laboratorians!
 ​
+ ![logo Comunidad laboratorians](src/assets/img/Captura3.JPG) 
+
+
+
 ## Índice
 ​
 * [Definición del Producto](#definicion)
@@ -135,13 +139,9 @@ Al finalizarla el test se les pregunta:
 ##Organización del Squads en Trello:
 https://trello.com/b/FSFHhEWS/red-social
 
-En conclusión, tratamos de tomar todas las mejoras y consejos, logramos el objetivo de que la página se entendiera y la pudieran ocupar en alguna oportunidad.
-​
-En términos de funciones, jerarquización, botones y solectores......
-​
 ​
 ## Evaluación heurística 
-Realizamos la evaluación para nuestra página web en el siguiente sitio: [haz click aquí]()
+Realizamos la evaluación para nuestra página web en el siguiente sitio: [haz click aquí](https://docs.google.com/spreadsheets/d/1kQ9hsZ9nWkKCiiaW9uN-zUcRCISYY0WRtSaQyXn-XV0/edit?usp=sharing)
 ​
 ##Consideraciones técnicas ( Build with )
 ​
