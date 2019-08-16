@@ -9,25 +9,33 @@ export const templateLogin = () => {
 	const containerLogin = document.createElement("div");
 	containerLogin.className = "containerLogin";
 	const contentLogin = `
-	
-		<div class="formulario">
-		div class="contenedor-form">
-		<h2>Iniciar Sesión</h2
-		<a href="index.html"><img  src="assets/img/Captura3.JPG" alt="logoComunidad laboratoria"></a>
-        <form action="#">
-     	<input type="email" id="emailSesion" placeholder="Correo electronico" required>
-            <input type="password"  id="passwordSesion" placeholder="Contraseña" required>
-		<div class="btn-submit">
-			<button class="button2" id="btnInicioEmail">Iniciar Sesión</button>
-			<br> <br>
-		</div>
-		<div class="google-btn">	
-		  <button class="button2" id="authGoogle">Iniciar con Google</button>
+	   
+
+	  <div class="container-login">
+	  <form class="signup"><a href="index.html"><img src="assets/img/Captura3.JPG" alt="logoComunidad laboratoria"></a>
+		  <div class="header">
+			  <h3>Logeate</h3>
 		  </div>
-		  <div class="reset-password">
+		  <div class="sep"></div>
+		  <input type="email" id="emailSesion" placeholder="Correo electronico" required>
+		  <input type="password"  id="passwordSesion" placeholder="Contraseña" required>  
+			  <div class="checkboxy">
+				  <input name="cecky" id="checky" value="1" type="checkbox"><label class="terms">Acepta los terminos de uso</label>
+			  </div>
+			  <div class="btn-submit">
+			<button class="button2" id="btnInicioEmail">Iniciar Sesión</button>
+		  </div>
+		  <div class="google-btn">	
+		  <button class="button2" id="authGoogle">Iniciar con Google</button>
+		  </div>	
+       <div class="reset-password">
 		  <a href="#">¿Olvide mi Contraseña?</a>
 	  </div>
-		</form>
+	  </form>
+  </div>
+
+
+		
 	`;
 
 	containerLogin.innerHTML = contentLogin;
