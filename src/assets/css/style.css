@@ -64,10 +64,10 @@ nav {
   }
   
 .buttonPpal  {
+    border-radius: 2px;
     text-align: center;
     font-size: 30px;
     margin-left: 15%;
-    border-radius: 30px;
     width: 300px;
     height: 80px;
     color: black;
@@ -76,6 +76,7 @@ nav {
     padding: 10px;
     transition: all .3s cubic-bezier(0.67, 0.19, 0.45, 0.83);
     background-color: #ffe521;
+    
 }
 
 a.buttonPpal
@@ -271,14 +272,18 @@ input:-moz-placeholder {
 
 
 .button,.button1, .button2, .button3, .button4, .button5{
-    border-radius: 20px;
-    height: 70px;
     text-align: center;
-    padding-top: 10px;
-    margin-left: 5%;
-    background: #ffe521;
-    width: 350px;
-    text-align: center;
+    width: 246px;
+    height: 47px;
+    z-index: 23;
+    line-height: 19px;
+    font-size: 10px;
+    font-weight: 550;
+    font-family: inherit;
+    border-radius: 2px;
+    background-color: #ffe521;
+    color: #000000;
+    transition: all .3s cubic-bezier(0.67, 0.19, 0.45, 0.83);
 }
 
 
@@ -466,7 +471,7 @@ font-size: 25px;
         text-align: center;
         font-size: 25px;
         margin-left: 15%;
-        border-radius: 30px;
+        border-radius: 5px;
         width: 250px;
         height: 60px;
     }
@@ -548,13 +553,14 @@ form.signup{
 }
 
 .button, .button2, .button3, .button4, .button5 {
-    border-radius: 20px;
     height: 40px;
     text-align: center;
     padding-top: 15px;
     margin-left: 5%;
+    font-weight: 550px;
     background: #ffe521;
     margin: 10px 3px 5px 3px;
+    border-radius: 2px;
 }
 
 h2{

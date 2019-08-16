@@ -15,7 +15,7 @@ export const templateRegister = () => {
 		  <input type="text" name="nombreContactoReg" id="nombreContactoReg" placeholder="Nombre de Usuario" required>
 	      <input type="text" name="emailContactoReg" id="emailContactoReg" placeholder="Correo electronico valido " required>
 	      <input type="password" name="passwordReg" id="passwordReg"placeholder="Contraseña" required></input>
-	      <button class="button5" id="btnRegistroEmail">Registrarse</button>
+	      <button class="button2" id="btnRegistroEmail">Registrarse</button>
 	  </form>
   </div>
 

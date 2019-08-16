@@ -26,7 +26,7 @@ export const templateLogin = () => {
 			<button class="button2" id="btnInicioEmail">Iniciar Sesión</button>
 		  </div>
 		  <div class="google-btn">	
-		  <button class="button2" id="authGoogle">Iniciar con Google</button>
+		  <button class="button2" id="authGoogle" img src="https://img2.freepng.es/20180324/ote/kisspng-google-logo-g-suite-google-search-chrome-5ab6e608a40b46.8129931915219358806719.jpg">Iniciar con Google</button>
 		  </div>	
        <div class="reset-password">
 		  <a href="#">¿Olvide mi Contraseña?</a>
