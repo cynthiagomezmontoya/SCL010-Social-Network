@@ -10,8 +10,17 @@ import {
 import {
   template404
 } from "./assets/views/template404.js";
+import {
+  templateHome
+} from "./assets/views/templateHome.js";
+import {
+  templateNewPost
+} from "./assets/views/templateNewPost.js";
 
 const changeRouter = h => {
+  if (h === "") {
+    return showTemplate(h);
+  }
   if (h === "#/login") {
     return showTemplate(h);
   }
@@ -24,6 +33,9 @@ const changeRouter = h => {
   if (h === "#/signOut") {
     return showTemplate(h);
   }
+  if (h === "#/newPost") {
+    return showTemplate(h);
+  }
 };
 
 const showTemplate = h => {
@@ -32,6 +44,9 @@ const showTemplate = h => {
   containerDinamic.innerHTML = "";
 
   switch (router) {
+    case "":
+      containerDinamic.appendChild(templateHome());
+      break;
     case "login":
       containerDinamic.appendChild(templateLogin());
       break;
@@ -40,6 +55,9 @@ const showTemplate = h => {
       break;
     case "posts":
       containerDinamic.appendChild(templatePosts());
+      break;
+    case "newPost":
+      containerDinamic.appendChild(templateNewPost());
       break;
     case "signOut":
       containerDinamic.appendChild(templateLogin());

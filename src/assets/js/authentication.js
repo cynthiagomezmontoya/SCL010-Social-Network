@@ -54,4 +54,5 @@ export const crearCuentaEmailPass = (email, password, nombres)  =>{
 
 export const authSignOut = () => {
   firebase.auth().signOut();
+  location.href = "#/login"
 }
