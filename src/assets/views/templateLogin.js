@@ -3,14 +3,11 @@ import {
 	authEmailPass,
 	authSignOut
 } from "../js/authentication.js";
-
 export const templateLogin = () => {
-	authSignOut();
+	//authSignOut();
 	const containerLogin = document.createElement("div");
 	containerLogin.className = "containerLogin";
 	const contentLogin = `
-	   
-
 	  <div class="container-login">
 	  <form class="signup"><a href="index.html"><img src="assets/img/Captura3.JPG" alt="logoComunidad laboratoria"></a>
 		  <div class="header">
@@ -34,28 +31,20 @@ export const templateLogin = () => {
 	  </form>
   </div>
 
-
-		
-	`;
-
+		`;
 	containerLogin.innerHTML = contentLogin;
-
 	const buttonEmailLogin = containerLogin.querySelector("#btnInicioEmail");
 	buttonEmailLogin.addEventListener("click", () => {
 		const emailSesion = document.getElementById("emailSesion").value;
 		const passwordSesion = document.getElementById("passwordSesion").value;
 		authEmailPass(emailSesion, passwordSesion);
 	});
-
 	const buttonGoogleLogin = containerLogin.querySelector("#authGoogle");
 	buttonGoogleLogin.addEventListener("click", () => {
 		authCuentaGoogle();
 	});
-
-
 	return containerLogin;
 }
-
 export const signOut = () => {
 	authSignOut();
 }
