@@ -11,9 +11,11 @@ export const templateLogin = () => {
 
 <div class="formulario">
 		<div class="contenedor-form">
-			<h2>Iniciar Sesión</h2>
-			<a href="index.html"><img  src="assets/img/Captura3.JPG" alt="logoComunidad laboratoria"></a>
-		
+			<h2>Se parte de este Gran Equipo.</h2>
+			
+			<a href="index.html"><img src="assets/img/Captura4.JPG" class="logoReg2" alt="logoComunidad laboratoria"></a>
+			
+			<br> 
 			<form action="#">
 				<input type="email" id="emailSesion" placeholder="Correo electronico" required>
 				<input type="password"  id="passwordSesion" placeholder="Contraseña" required>

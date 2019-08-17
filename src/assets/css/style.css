@@ -13,6 +13,7 @@ header{
 .logo img{
     max-width: 200px;
     padding: 6px;
+
 }
 
 nav {
@@ -114,6 +115,15 @@ a.buttons{
 h2{
     margin:100px;
     font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.logoReg2 {
+margin-left: 20%;
+margin-bottom: 20px;
+    
 }
 
 .container {
@@ -127,6 +137,10 @@ h2{
     margin: 80px;
     align-items: center;
     align-content: center;
+}
+
+.reset-password {
+margin-bottom: 20px;
 }
 
 /*.login  {
@@ -429,9 +443,9 @@ h1{
 }
 
 .row {
-    margin-left: auto;
-    margin-right: 75%;
-    margin-bottom: 20px;
+   margin-left: 120%;
+    margin-right: auto;
+    margin-bottom: 30px
 }
 
 .post {
@@ -443,6 +457,12 @@ h1{
     color: darkblue;
     background: lightyellow;
 }
+
+.formulario {
+    border-style: solid;
+    border-color: #F4DC00;
+}
+
 
 /*.intro{
         display: none;
@@ -459,6 +479,7 @@ h1{
 }
 .content {
     font-size: 25px;
+    margin-left: 150px;
 }
 .containerLogin{
     font-size: 40px;
@@ -493,29 +514,128 @@ margin-right: 10%;
 font-size: 25px;
 }
 .avatar  {
-    margin-left: 50%;
+    margin-left: 40%;
 }
 .containerRegister {
     width: 550px;
     height: 450px;
     margin-left: 4%;
 }
+
+.buttPuPhOu {
+    display: -webkit-inline-box;
+    justify-content: space-between;
+    margin-left: 10%;
+}
+
+.buttPub {
+   
+}
+.buttPho {
+    margin-left: 120%;
+}
+
+.buttOut {
+    margin-left: 240%;
+}
+.bLike, .bComment, .bEdit, .bRemove {
+margin-top: 20px;
+}
+
+.bLike {
+    margin-left: 10%;
+}
+
+.bComment {
+    margin-left: 5%;
+}
+
+.bEdit {
+    margin-left: 5%;
+}
+
+.bRemove {
+    margin-left: 5%;
+}
+
+.nav-links {
+    margin-right: 30%;
+   margin-left: 25%;
+    margin-top: 5%;
+    font-size: 50px;
+}
+
+.log-nav {
+    display: unset;
+}
+
+
+
+.post-descripcion{
+margin-right: 15%;
+margin-left: 10%;
+}
+
+.post-titulo {
+    margin-right: 15%;
+    margin-left: 10%;
+}
+
+.container, .post-footer, .post-titulo {
+
+}
+
+.intro {
+    margin-left: 15px;
+}
+
+.formulario {
+    margin-left: 15px;
+    margin-right: 150px;
+}
+
+.logo{
+    margin-left: 10%;
+    margin-right: 60%;
+}
+.logoReg2 {
+margin-left: 35%;
+margin-bottom: 20px;
+    
+}
+.subscribe {
+margin-right: 10%;
+font-size: 25px;
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+.main-title {
+
+}
+
+.row {
+      
+      margin-left: 50%;
+    margin-bottom: 20px;
 }
 
 /* RESPONSIVE -------------------------*/
 
-@media screen and (max-width: 650px) {
+@media screen and (min-width: 650px) {
     .nav-links {
         background: #fffefe;
         width: 100%;
-        margin: -15px;
         padding: 0 0 10px;
         display: flex;
         justify-content: center;
+
     }
 
     .nav-links a{
-        margin: 0px 20px 0px;
+        margin-left: 20px;
         font-size: 12px;
     }
     
@@ -529,12 +649,10 @@ font-size: 25px;
         justify-content: center;
     }
 
-    .footer {
+    .footer-info {
         background: black;
-        margin-top: 25%;
-        flex-wrap: wrap;
+        margin-top: 0;
         align-items: center;
-        justify-content: space-around;
         color: rgb(255, 255, 255);
     }
 
@@ -575,18 +693,33 @@ a.buttons{
     background: lightyellow;
 }
 
+.logoReg2 {
+margin-left: 10%;
+margin-bottom: 20px;
+width: 20%;
+    
+}
+.buttPuPhOu {
+   
+        font-size: 15px;
+    width: 100%;
+}
 
-/*.row {
-    margin-left: auto;
-    margin-right: 75%;
+.row {
+    margin-right: 100%;
+    margin-left: 20%;
     margin-bottom: 20px;
-}*/
+}
 
-/*.post-titulo {
+.post-titulo {
     color: darkblue;
-    background: lightyellow;
-}*/
+}
 
+.post-footer {
+      margin-right: 50%;
+    margin-left: 68%;
+    margin-bottom: 20px;
+}
 
 @media screen and  (max-width: 500px) {
     .main-title, h2 {
@@ -596,10 +729,8 @@ a.buttons{
     .nav-links {
         background: #cac9c9;
         width: 100%;
-        margin: 0px;
         padding: 0px;
-        display: flex;
-        justify-content: center;
+       margin-right: 40%;
         font-size: 12px;
     }
     
@@ -693,11 +824,11 @@ position:relative;
 #authGoogle {
     background-color: #dd4c39;
 }
-/*.row {
+.row {
     margin-left: auto;
     margin-right: 75%;
     margin-bottom: 20px;
-}*/
+}
 
 .post-descripcion {
     color: darkblue;
@@ -755,11 +886,11 @@ position:relative;
 #authGoogle {
     background-color: #dd4c39;
 }
-/*.row {
+.row {
     margin-left: auto;
     margin-right: 75%;
     margin-bottom: 20px;
-}*/
+}
 
 .post-descripcion {
     color: darkblue;
