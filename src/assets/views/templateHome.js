@@ -7,7 +7,7 @@ export const templateHome = () => {
    </section>
 
     <div class="buttonPpal" id="containerLogin">
-      <a href="#/login"class= "buttons"> Iniciar Sesion</a>
+      <a href="#/login"class= "buttons"> Iniciar Sesión</a>
     </div>
        <br>
       <div class="buttonPpal" id="containerRegister">
