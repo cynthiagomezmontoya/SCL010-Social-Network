@@ -90,9 +90,10 @@ a.buttons{
 }
 
 .bLike, .bComment, .bEdit, .bRemove {
-    background: #C2095A;
+    /*background: #C2095A;*/
+    background: #ffe521;
     border-radius: 5px;
-    color: white;
+    color: black;
 }
 
 /*cONTENIDO---------------------------------*/
@@ -313,7 +314,7 @@ input:-moz-placeholder {
     text-align: center;
     padding-top: 10px;
     margin-left: 0;
-    background: #ffe521;
+    background: #dd4c39;
     width: 200px;
     margin-top: 15%;
     font-size: 20px;
@@ -427,8 +428,13 @@ h1{
     margin-bottom: 20px;
 }
 
-.post-titulo {
+.post {
     /*color: darkblue;*/
+    /*background: lightyellow;*/
+}
+
+.post-descripcion {
+    color: darkblue;
     background: lightyellow;
 }
 
@@ -558,16 +564,22 @@ a.buttons{
     #authGoogle {
     background-color: #dd4c39;
 }
-.row {
+.post-descripcion {
+    color: darkblue;
+    background: lightyellow;
+}
+
+
+/*.row {
     margin-left: auto;
     margin-right: 75%;
     margin-bottom: 20px;
-}
+}*/
 
-.post-titulo {
-    /*color: darkblue;*/
+/*.post-titulo {
+    color: darkblue;
     background: lightyellow;
-}
+}*/
 
 
 @media screen and  (max-width: 500px) {
@@ -675,14 +687,14 @@ position:relative;
 #authGoogle {
     background-color: #dd4c39;
 }
-.row {
+/*.row {
     margin-left: auto;
     margin-right: 75%;
     margin-bottom: 20px;
-}
+}*/
 
-.post-titulo {
-    /*color: darkblue;*/
+.post-descripcion {
+    color: darkblue;
     background: lightyellow;
 }
 
@@ -737,17 +749,16 @@ position:relative;
 #authGoogle {
     background-color: #dd4c39;
 }
-.row {
+/*.row {
     margin-left: auto;
     margin-right: 75%;
     margin-bottom: 20px;
-}
+}*/
 
-.post-titulo {
-    /*color: darkblue;*/
+.post-descripcion {
+    color: darkblue;
     background: lightyellow;
 }
-
 
   
 
