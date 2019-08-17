@@ -91,13 +91,14 @@ export const obtenerTemplatePostVacio = () => {
   }
   export const obtenerPostTemplate  = ( autor, titulo, comentario, fecha) => {
     return `<article class="post">
+                
+                <div class="post-descripcion">
+                    <p>${comentario}</p>
+
+                </div>
                 <div class="post-titulo">
 
-                    <h5><strong>${titulo}</strong></h5>
-                </div>
-                <div class="post-descripcion">
-                    <h6>${comentario}</h6>
-
+                    <h6><strong>${titulo}</strong></h6>
                 </div>
                 <div class="post-footer container">
                     <div class="row">

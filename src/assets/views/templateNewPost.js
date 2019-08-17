@@ -21,10 +21,6 @@ export const templateNewPost = () => {
   <button class="button2" id="publicar">Publicar</button>
   <button class="button2" id="backWall">Volver al Muro</button>
 
-
-     
-
-
     `;
     containerNewPost.innerHTML = contentNewPost;
 
