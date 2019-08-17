@@ -19,11 +19,19 @@ export const templatePosts = () => {
 
   </div>
   <div id="navegador">
+<<<<<<< HEAD
       <section class="buttPuPhOu">
       <div><button class="buttPub" id="publicar">Crear Publicación</button></div>
       <div><button class="buttPho" id="pushPhoto">Sube tu Foto</button></div>
       <div><button class="buttOut" id="signOut">Cerrar Sesión</button></div>
       </section>
+=======
+      <ul>
+      <li> <button class="button2" id="publicar">Crear Publicacion</button></li>
+      <li><button class="button2" id="pushPhoto">Sube Foto</button></li>
+      <li><button class="button2" id="signOut">SignOut</button></li>
+      </ul>
+>>>>>>> 6daa542eb1c4e8c9c0b06619c94b516e7ceb09fc
   </div>
     
 
@@ -90,10 +98,17 @@ export const obtenerTemplatePostVacio = () => {
   export const obtenerPostTemplate  = ( autor, titulo, comentario, fecha) => {
     return `<article class="post">
                 <div class="post-titulo">
+<<<<<<< HEAD
                     <p><strong>${titulo}</strong></p>
                 </div>
                 <div class="post-descripcion">
                     <h6>${comentario}</h6>
+=======
+                    <h5>${titulo}</h5>
+                </div>
+                <div class="post-descripcion">
+                    <p>${comentario}</p>
+>>>>>>> 6daa542eb1c4e8c9c0b06619c94b516e7ceb09fc
                 </div>
                 <div class="post-footer container">
                     <div class="row">
