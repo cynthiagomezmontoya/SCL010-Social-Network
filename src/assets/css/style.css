@@ -555,6 +555,21 @@ a.buttons{
         margin: inherit;
     }
 
+    #authGoogle {
+    background-color: #dd4c39;
+}
+.row {
+    margin-left: auto;
+    margin-right: 75%;
+    margin-bottom: 20px;
+}
+
+.post-titulo {
+    /*color: darkblue;*/
+    background: lightyellow;
+}
+
+
 @media screen and  (max-width: 500px) {
     .main-title, h2 {
         display:none;
@@ -657,6 +672,20 @@ position:relative;
 .containerLogin{
     margin: 80px 0px 10px 10px;
 }
+#authGoogle {
+    background-color: #dd4c39;
+}
+.row {
+    margin-left: auto;
+    margin-right: 75%;
+    margin-bottom: 20px;
+}
+
+.post-titulo {
+    /*color: darkblue;*/
+    background: lightyellow;
+}
+
 
 @media screen and  (max-width: 380px) {
     
@@ -704,6 +733,19 @@ position:relative;
     .footer{
         display:none;
     }
+
+#authGoogle {
+    background-color: #dd4c39;
+}
+.row {
+    margin-left: auto;
+    margin-right: 75%;
+    margin-bottom: 20px;
+}
+
+.post-titulo {
+    /*color: darkblue;*/
+    background: lightyellow;
 }
 
 
